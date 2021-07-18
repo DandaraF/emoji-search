@@ -2,7 +2,9 @@ import { useState } from "react";
 import { arrayEmoji } from "../../mock/emojiData";
 import "./index.scss"
 
-const Search = () => {
+const Search = (props) => {
+
+  const [search, setSearch] = useState('');
 
   return (
     <div id="inputSearch">
@@ -10,9 +12,12 @@ const Search = () => {
         type="text"
         id="inputSearch"
         placeholder="Digite o nome do emoji que deseja encontrar"
-           />
-      <hr/>
+        value={props.value}
+        onChange={props.event}
+      />
+      
     </div>
+
   )
 };
 
