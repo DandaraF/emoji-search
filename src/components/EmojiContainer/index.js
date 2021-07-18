@@ -9,7 +9,7 @@ const EmojiContainer = () => {
 
   return (
     <div id="container">
-      <Searc
+      <Search
         value={search}
         event={(ev) => setSearch(ev.target.value)} />
       
