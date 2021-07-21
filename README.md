@@ -4,8 +4,9 @@ Esse projeto é um desafio do curso Estartando Devs 2021, com o objetivo de reco
 
 ## Tecnologias utilizadas
 
-<p>HTML</p>
-<p>SASS</p>
-<p>REACT</p>
+<li>HTML</li>
+<li>SASS</li>
+<li>REACT</li>
+
 
 
